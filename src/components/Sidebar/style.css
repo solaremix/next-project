@@ -1,0 +1,15 @@
+.sidebar{
+    width: 11rem;
+    background-color: #d9d9d9;
+    height: calc(99vh - 50px);
+    padding-top: 1.9%;
+    padding-left: 1%;
+  }
+
+  ul{
+    list-style: none;
+  }
+  
+  li{
+    color: #9382b7;
+  }

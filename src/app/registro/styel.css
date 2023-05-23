@@ -1,0 +1,10 @@
+.boton{
+    float: right;
+    text-align: right;
+    background-color: purple;
+    border-radius: 30px;
+}
+.textfield{
+    border-radius: 5px;
+    border-color: blueviolet;
+}

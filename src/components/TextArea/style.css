@@ -1,0 +1,14 @@
+.caja{
+    resize: none;
+    border-color: #BB6ECE;
+    border-width: 2px;
+}
+
+.caja:focus-visible{
+    border-color: #BB6ECE;
+    box-shadow: none;
+}
+
+.caja:focus{
+    border-color: #BB6ECE;
+}

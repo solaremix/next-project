@@ -1,0 +1,36 @@
+.cont{
+    display: flex;
+    background-color:#fef7ff;
+    padding: 0 25px;
+    height: 70px;
+    width: 30%;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.icono{
+    padding-top: 20px;
+}
+
+.txts{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.nombre{
+    display: inline;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.fecha{
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 13.5px;
+    
+}

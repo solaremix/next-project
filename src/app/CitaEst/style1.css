@@ -1,0 +1,50 @@
+.programar{
+    float: right;
+    text-align: right;
+    background-color: #9C63A4;
+    border-radius: 30px;
+    size: 10cm;
+    color: white;
+    padding: 10px;
+    
+
+    
+}
+.Ver{
+    float: right;
+    text-align: right;
+    background-color:white;
+    border-radius: 30px;
+    size: 10cm;
+    color: #9C63A4;
+    padding: 10px;
+    
+
+    
+}
+
+
+.textfield{
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+h2{
+    size: 100cm;
+}
+.cuadro{
+    display: flex;
+    
+}
+.titulo{
+    width: 15rem;   
+}
+.margin{
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+.recuadro{
+    margin: 15px;
+}

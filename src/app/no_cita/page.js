@@ -11,7 +11,7 @@ const no_cita = () => {
                 </div>
                 <div>
                     <button type="button" className="btn btn-success">
-                        Programar una cita
+                        Programar una asesoria.
                     </button>
                 </div>
             </div>

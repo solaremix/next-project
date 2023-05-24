@@ -21,9 +21,6 @@ const citaspasadas = () => {
     useEffect(()=>{
         filtrarFecha()
     },[])
-
-    
-
             return(
                     <div className='cuerpo'>
                         <div className='arriba'>

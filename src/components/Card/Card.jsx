@@ -26,7 +26,7 @@ const Carta = ({ nombreprof, especialidad, fecha,curso } ) => {
         </Card.Text>
         <div className="calificacion">
             <p>Calificacion</p>
-            <Button variant="outline-secondary" className='boton' onClick={() => router.push('/calificar')}>Calificar</Button>
+            <Button variant="outline-secondary" className='boton' onClick={() => router.push('./calificar')}>Calificar</Button>
         </div>
 
       </Card.Body>

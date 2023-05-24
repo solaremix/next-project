@@ -41,7 +41,7 @@ const Registro = () => {
     
     }
     return (
-        <div>
+        <div className='w-100 p-5'>
 
           <h3>Sistema de Citas para Atención a Estudiantes</h3>
           <h3>Pagina de Registro</h3>

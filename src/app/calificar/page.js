@@ -9,7 +9,7 @@ const calificar = () =>{
         <div className='contenedor'>
             <h2 className='titulo'>Califica la atención</h2>
             <hr></hr>
-            <p>Es muy importante para nosotros saber cómo te fue en tu sesión de asesoría.</p>
+            <p className='d-block'>Es muy importante para nosotros saber cómo te fue en tu sesión de asesoría.</p>
             <br></br>
             <Estrellas></Estrellas>
             <br></br>

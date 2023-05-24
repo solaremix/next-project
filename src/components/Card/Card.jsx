@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/navigation'
 import './style.css'
 
+const Carta = ({ nombreprof, especialidad, fecha,curso } ) => {
 
-const Carta = (nombreprof, especialidad, fecha,curso) => {
   const router = useRouter();
 
   return (
@@ -26,7 +26,7 @@ const Carta = (nombreprof, especialidad, fecha,curso) => {
         </Card.Text>
         <div className="calificacion">
             <p>Calificacion</p>
-            <Button variant="outline-secondary" className='boton' onClick={router.push('/calificar')}>Calificar</Button>
+            <Button variant="outline-secondary" className='boton' onClick={() => router.push('/calificar')}>Calificar</Button>
         </div>
 
       </Card.Body>

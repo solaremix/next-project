@@ -12,10 +12,9 @@ const citaspasadas = () => {
     const [citasFiltrado, setCitasFiltrado] = useState([]);
 
     const filtrarFecha = () =>{
-        console.log("Ejecutando")
-        const citasFiltradas = citasOriginal.filter(elemento => (elemento.fecha < fechaSistema));
-        setCitasFiltrado(citasFiltrado)
-        console.log(citasFiltrado)
+        const citasFiltradas = citasOriginal.filter(elemento => (new Date(elemento.fecha) < fechaSistema));
+        setCitasFiltrado(citasFiltradas)
+
       };
 
     useEffect(()=>{
@@ -41,12 +40,11 @@ const citaspasadas = () => {
                         </div>
                         <br></br>
                         <br></br>
-                        <div>
-                             {console.log(citas)}
-                            { citas.length === 0 ? (
+                        <div className='cards'>
+                            { citasFiltrado.length === 0 ? (
                                     <p>No hay citas pasadas</p>
                                 ):
-                                (citas.map(elem => (
+                                (citasFiltrado.map(elem => (
                                     <Carta nombreprof={elem.nombreprof} especialidad={elem.especialidad} fecha={elem.fecha} 
                                     curso={elem.curso}/>
                                 )))

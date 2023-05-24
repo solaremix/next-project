@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 
-const Horario = () => {
+const horario = () => {
   const [horarios, setHorarios] = useState([]);
   const [nuevoHorario, setNuevoHorario] = useState({
     diaSemana: '',
@@ -114,5 +114,4 @@ const Horario = () => {
   );
 };
 
-export default Horario;
-
+export default horario;

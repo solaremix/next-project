@@ -27,7 +27,7 @@ const horario = () => {
   };
 
   return (
-    <div className="p-5">
+    <div className="p-3 w-100">
       <h2>Mis horarios</h2>
         <hr></hr>
       <form className="d-flex pt-3">

@@ -1,10 +1,12 @@
 .contenedor{
     width: 100%;
     margin: 10px;
+    display: block;
 }
 
 .titulo{
     margin-top: 10px;
+    display: block;
 }
 
 p{

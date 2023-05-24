@@ -1,12 +1,12 @@
 'use client';
 
-const NoCita = () => {
+const no_cita = () => {
     return (
-        <div className="p-5">
+        <div className="p-5 w-100">
             <h2>Mis Citas</h2>
             <hr></hr>
-            <div>
-                <div>
+            <div className="text-center">
+                <div className="p-5">
                     Actualmente no tiene citas de asesoría reservadas.
                 </div>
                 <div>
@@ -19,4 +19,4 @@ const NoCita = () => {
     );
 };
 
-export default NoCita;
+export default no_cita;

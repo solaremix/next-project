@@ -4,11 +4,11 @@ const Sidebar = () =>{
     return(
         <div className="sidebar">
             <ul>
-                <li>Principal</li>
+                <li><a href="/pagprin_docente">Principal</a></li>
                 <br></br>
-                <li>Perfil</li>
+                <li><a href="/registro">Perfil</a></li>
                 <br></br>
-                <li>Horarios</li>
+                <li><a href="/Cita">Citas</a></li>
             </ul>
         </div>
     )

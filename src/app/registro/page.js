@@ -35,7 +35,7 @@ const Registro = () => {
             alert('Rol incorrecto, Escoger entre Profesor y Estudiante')
     
             if (Documento==="DNI" || Documento==="Pasaporte"|| Documento==="dni" || Documento==="pasaporte"|| Documento==="Dni" ) {
-              router.push('/ejercicio6')
+              router.push('/login1')
           } else
               alert('Rol incorrecto, Escoger entre DNI y Pasaporte')
     

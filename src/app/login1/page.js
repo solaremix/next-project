@@ -9,7 +9,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 
-const Ejercicio8 = () => {
+const login = () => {
 
     const [usuario, setUsuario] = useState('')
     const [password, setPassword] = useState('')
@@ -18,7 +18,7 @@ const Ejercicio8 = () => {
 
     const handleClick = () => {
         if (usuario==="profe" && password==="profe2023") {
-            router.push('/screenProfe')
+            router.push('/pagprin_docente')
         } 
         else if (usuario==="alumno" && password==="alumno2023") {
             router.push('/screenAlumno')
@@ -43,7 +43,7 @@ const Ejercicio8 = () => {
                     placeholder="Password"
                     onChange={e => setPassword(e.target.value)} />
                 <br />
-                <p>¿Eres nuevo? <a href="register">Regístrate</a> - <a href="resetPassword">¿Olvidates tu contraseña?</a></p>
+                <p>¿Eres nuevo? <a href="/registro">Regístrate</a> - <a href="resetPassword">¿Olvidates tu contraseña?</a></p>
                 
                 <br />
                 <Button onClick={handleClick}>Ingresar</Button>
@@ -53,4 +53,4 @@ const Ejercicio8 = () => {
     )
 } 
 
-export default Ejercicio8
+export default login

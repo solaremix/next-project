@@ -3,17 +3,17 @@ import Cancelar from '../../components/Card_cancelar/profe/Card_cancelar.jsx'
 import '../Cita/style1.css'
 import Button from 'react-bootstrap/Button'
 import React from 'react';
-import {citas} from '../../api/citas.js';
+import {citasPro} from '../../api/citasPro.js';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation'
 
 const Cita = () => {
     const fechaSistema = new Date();
-    const [citasOriginal, setCitasOriginal] = useState(citas);
+    const [citasOriginal, setCitasOriginal] = useState(citasPro);
     const [citasFiltrado, setCitasFiltrado] = useState([]);
 
     const filtrarFecha = () =>{
-        const citasFiltradas = citasOriginal.filter(elemento => (new Date(elemento.fecha) < fechaSistema));
+        const citasFiltradas = citasOriginal.filter(elemento => (new Date(elemento.fecha) > fechaSistema));
         setCitasFiltrado(citasFiltradas)
 
       };

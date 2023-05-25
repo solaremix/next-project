@@ -12,7 +12,7 @@
       const [citasFiltrado, setCitasFiltrado] = useState([]);
 
       const filtrarFecha = () =>{
-          const citasFiltradas = citasOriginal.filter(elemento => (new Date(elemento.fecha) < fechaSistema));
+          const citasFiltradas = citasOriginal.filter(elemento => (new Date(elemento.fecha) > fechaSistema));
           setCitasFiltrado(citasFiltradas)
 
         };

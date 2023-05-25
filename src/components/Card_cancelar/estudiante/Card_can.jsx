@@ -25,7 +25,7 @@ const Can = ({ nomEest, especialidad, fecha, curso, onDelete }) => {
           <span>{especialidad}</span>
         </div>
       </Card.Header>
-      <Card.Img variant="top" src="https://cdn.discordapp.com/attachments/1065834267084595203/1110727600571174982/profesor-emerito-2000x1200.jpg" />
+      <Card.Img variant="top" width={171} height={180}  src="https://cdn.discordapp.com/attachments/1065834267084595203/1110749327946682428/franco.jpeg" />
       <Card.Body>
         <Card.Title>{fecha}</Card.Title>
         <Card.Text>

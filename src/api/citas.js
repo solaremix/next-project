@@ -1,10 +1,11 @@
 export const citas = [
    {nombreprof: "Alejandro Jimenez", especialidad: "Ingenieria de Software",
-   fecha: '2023-06-12', curso:"Prograweb"},
+   fecha: '2020-06-12', curso:"Prograweb"},
    {nombreprof: "Juan Perez", especialidad: "Ingenieria de Software",
-   fecha: '2023-05-30', curso:"Prograweb"},
+   fecha: '2020-05-30', curso:"Prograweb"},
    {nombreprof: "Juan Perez", especialidad: "Ingenieria de Software",
-   fecha: '2023-06-12', curso:"POO"}
+   fecha: '2020-06-12', curso:"POO"},
+   
 ]
 
 const save = (cita) =>{
